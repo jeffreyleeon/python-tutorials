@@ -29,7 +29,7 @@ d = False
 
 '''
 Logic of AND operator
-	  | True  | False
+      | True  | False
 ______|_______|_______
 True  |	True  | False
 False | False | False
@@ -49,7 +49,7 @@ if b and d:
 
 '''
 Logic of OR operator
-	  | True | False
+      | True | False
 ______|______|_______
 True  |	True | True
 False | True | False
@@ -69,7 +69,7 @@ if b or d:
 
 '''
 Logic of NOT operator
-	  | NOT 
+      | NOT 
 ______|_______
 True  |	False 
 False | True 
