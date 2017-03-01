@@ -20,6 +20,9 @@ print(float(a) / b) # 0.666666666667
 print(a / float(b)) # 0.666666666667
 print(float(a) / float(b)) # 0.666666666667
 
+print(a > b)
+print(b > a)
+
 print('\n') # New line symbol '\n'
 
 '''
@@ -44,6 +47,8 @@ print('The result of c and d is ' + str(c and d))
 print('The result of c and e is ' + str(c and e))
 print('The result of e and d is ' + str(e and d))
 print('The result of e and f is ' + str(e and f))
+print('\n')
+
 '''
 Logic of OR operator
 	  | True | False
@@ -55,4 +60,14 @@ print('The result of c or d is ' + str(c or d))
 print('The result of c or e is ' + str(c or e))
 print('The result of e or d is ' + str(e or d))
 print('The result of e or f is ' + str(e or f))
+print('\n')
 
+'''
+Logic of NOT operator
+	  | NOT 
+______|_______
+True  |	False 
+False | True 
+'''
+print('The result of not c is ' + str(not c))
+print('The result of not e is ' + str(not e))
